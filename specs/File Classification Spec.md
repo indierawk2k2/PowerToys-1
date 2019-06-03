@@ -38,15 +38,15 @@ Our PowerToys Consumer Survey received an abundant amount of participation and f
 
 ### Functional Requirements
 
-**1. Initial UX/UI**
+#### 1. Initial UX/UI
    
    Users must open File Explorer and select a group of files by checking each file or using Shift + directional keys.  They must then use a shortcut to open the File Classification utility, which opens in the center of the screen and provides options that require input from the user.
 
    **For a visual example of the UX see Figure 1*
 
-   **For limitations in user input see 2.4*
+   **For guidelines on user input see 2.4*
 
-**2. Rename File Options**   
+#### 2. Rename File Options   
 
    2.1. Simple File Rename
    - Renames all user-selected files after receiving a label, which is typed by the user to be the files' new name.
@@ -62,17 +62,20 @@ Our PowerToys Consumer Survey received an abundant amount of participation and f
    - Every instance of the characters found in each selected file's name will be replaced.
      - Example: If the user types that "e" should be replaced with "o" then a selected file named "bleed" would be changed to "blood"
 
-   2.4. Shared Functionality
+   2.4. Shared Attributes
    
-   - **Labels**
+   - Labels
      - Used as the name for the new folders created.  
      - Used to rename files by completely overwriting the files' current names with the custom 'Label' typed by the user and each file receives a counting number.
-   - **Confirmation**  
+   - File Numbering
+     - There will be an option to change the format of how the numbers are appended to files' names in the PowerToys Settings.
+     - Similar to the functionality of a switch or radio button, the user will be able to select options for the numbering format such as "Label(1)" or  "Label_1" or "Label1"
+   - Confirmation  
      - After the user selects an option and fills in the required text boxes, they must click 'Apply' for the utility to make the changes, or they can click 'Cancel' which closes the utility without making changes.
-   - **Input Limitations**
-     - Only a single option can be applied at a time, so if the user begins to type text for one option, the others options should block input (*text area turns grey?*) unless input is removed from the original option.
+   - Guidelines on User Input
+     - Only a single option can be applied at a time, so if the user begins to type text for one option, the other options should block input (*text area turns grey and the user cannot type in it*) unless input is removed from the original option.
      - If a space alone is inputted into any of the options, no changes are made when apply is clicked.
-- **Shortcut Accessibility**
+- Shortcut Accessibility
   - Perhaps Ctrl + Tab, which does not have a function within File Explorer.
   - Alternatives include : Alt + C , Ctrl + Alt + F
 
