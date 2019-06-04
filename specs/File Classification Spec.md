@@ -1,6 +1,7 @@
 # **PowerToys File Classification Spec**
 
-![MS PowerToys](https://hothardware.com/ContentImages/NewsItem/48038/content/Microsoft_PowerToys.jpg "PowerToys")
+<img src="https://hothardware.com/ContentImages/NewsItem/48038/content/Microsoft_PowerToys.jpg" alt="Figure 1-2" width="500"/>
+
 ## Users can quickly rename and group files.
 ### Authors: Benjamin Leverette and Prudence Phillips
 ### Spec Status: Draft
@@ -32,7 +33,12 @@ Design and develop a feature that can rename and group files within an 8 week pe
 
 ### Expected Impact: Customer, and Technology Outcomes, Experiments + Measures
 
-Our PowerToys Consumer Survey received an abundant amount of participation and feedback from a community of passionate power users.  This feature will give them the ability to rename, group and organize files in a way that makes their virtual library of files more organized and efficient.  As interns, we would have 8 weeks to complete the project.
+Our PowerToys Consumer Survey received participation and feedback from over 250 passionate power users.  This feature will give them the ability to rename, group and organize files in a way that makes their virtual library of files more organized and efficient.  As interns, we would have 8 weeks to complete the project.  Measures of success include:
+
+- A score of an average of 3.75 stars on a new Consumer Design Satisfaction Survey
+- Installed by 10% of users who have starred the PowerToys Github
+- Uninstalled by less than 30% of users who installed
+- Launched by over 60% of users who installed
 
 ## Requirements
 
@@ -79,17 +85,7 @@ Our PowerToys Consumer Survey received an abundant amount of participation and f
   - Perhaps Ctrl + Tab, which does not have a function within File Explorer.
   - Alternatives include : Alt + C , Ctrl + Alt + F
 
-Figure 1: Initial UX/UI Visual
-![Figure 1-1](https://raw.github.com/indierawk2k2/PowerToys-1/images/PT%20Images/File%20Classification%20Design%20Blurred.png "FC")
-
-### Measure Requirements
-
-- A score of an average of 4 stars on a new Consumer Design Satisfaction Survey
-- 100 Github comments
-- 20 pull requests
-- Installed by 40% of Power Users
-- Uninstalled by less than 10% of installs
-- Launched by over 90% of installs
+<img src="https://raw.github.com/indierawk2k2/PowerToys-1/images/PT%20Images/File%20Classification%20Design%20Blurred.png" alt="Figure 1-1" width="500"/>
 
 ## Dependencies
 
