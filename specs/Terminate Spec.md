@@ -42,8 +42,9 @@ The current methods a user can close a running program in Windows include:
 The PowerToys repo currently has 200+ people watching, over 4000 stars and 109 forks on github despite having an empty repo. Also, this particular PowerToy received a rating of 3.44/5 in the survey we sent out to the community asking them to rate how useful they think it will be. after the release of this PowerToy, the following will be used to measure our success rate: 
 
 - At least a 5% increase in Github stars within a month of release
-- A follow up survey will be sent out to the community and an increase in the rating to about 3.75/5.
-- 100 downloads within the first month of release.
+- A 3.75/5 rating on a post-completion Consumer Satisfaction Survey on this PowerToy.
+- 100 downloads & installs within the first month of release.
+- Less than 40% of unistalls by users who install
 
 ## 3. Requirements
 
@@ -67,7 +68,7 @@ To use this PowerToy, a user will:
 The initially proposed name for this app is Terminate App. However, there are multiple other alternative names that we are also considering:
 
  - Destroy App
- - Knockdown App
+ - Knockdown Program
  - Dismantle App
 
 ## 4. Dependencies
