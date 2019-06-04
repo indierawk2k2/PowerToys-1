@@ -6,30 +6,30 @@
 ### Spec Status: Draft
 ## 1. Overview
 
-**1.1. Elevator Pitch / Narrative** 
+### 1.1. Elevator Pitch / Narrative
 
 Mike is debugging his code in Visual Studio and the program freezes with the "App not responding" text displaying on the title bar, informing him that he cannot continue his work without closing the program and restarting it. Mike has tried to close the program using the close button and end task via the task manager, but none of these mechanisms work in helping him terminate the process so he can proceed with his work. With this PowerToy installed, Mike now has a visual and accessible last-resort method to help him kill the process.
 
-**1.2. Customers**
+### 1.2. Customers
 
 PowerToys is mainly targeted towards Windows Power Users though it is available to users who want to experience using windows in a more efficient and productive way.
  
   
-**1.3. Problem Statement and Supporting Customer Insights**
+### 1.3. Problem Statement and Supporting Customer Insights
 
 Windows users need an accessible mechanism to completely kill a process when it is being unresponsive and hindering work flow. The team is still required to find solutions for:
 
-- A publicly accpetable name for this PowerToy.
+- A public name for this PowerToy.
 - The degree to which the process will be terminated.
 
-**1.4. Existing Solutions or Expectations**
+### 1.4. Existing Solutions or Expectations
 
 The current methods a user can close a running program in Windows include:
 - Clicking on the close button in the program
 - Closing the program via task manager
 - Using the keyboard shortcut Alt + F4 to close the program
 
-**1.5. Goals/Non-Goals**
+### 1.5. Goals/Non-Goals
 
 - Develop this PowerToy and have sufficient time for testing and integration within our assigned 8 weeks for the project. 
 
@@ -37,15 +37,19 @@ The current methods a user can close a running program in Windows include:
 
 ## 2. Definition of Success
 
-**2.1. Expected Impact: Customer, and Technology Outcomes, Experiments + Measures**
+### 2.1. Expected Impact: Customer, and Technology Outcomes, Experiments + Measures
 
-The PowerToys repo currently has 200+ people watching, over 4000 stars and 109 forks on github despite having an empty repo. Also, this particular PowerToy received a rating of 3.44/5 in the survey we sent out to the community asking them to rate how useful they think it will be. After the PowerToys repo is made public, we hope to see at least a 5% increase in all the Github statistics aforementioned. On completion, a follow up survey will be sent out to the community and an increase in the rating to about 3.75/5 will be a good indicator that we met our customers satisfaction.
+The PowerToys repo currently has 200+ people watching, over 4000 stars and 109 forks on github despite having an empty repo. Also, this particular PowerToy received a rating of 3.44/5 in the survey we sent out to the community asking them to rate how useful they think it will be. after the release of this PowerToy, the following will be used to measure our success rate: 
+
+- At least a 5% increase in Github stars within a month of release
+- A follow up survey will be sent out to the community and an increase in the rating to about 3.75/5.
+- 100 downloads within the first month of release.
 
 ## 3. Requirements
 
-**3.1.	Functional Requirements**
+### 3.1.	Functional Requirements
 
-Tou use this PowerToy, a user will:
+To use this PowerToy, a user will:
 
 - Click the chosen keyboard shortcut and cursor morphs to indicate that user is in 'Terminate' mode.
 - In Terminate mode, whenever a user clicks on a window, it displays a yes/no prompt for the user to confirm that they want to close said window.
@@ -58,13 +62,13 @@ Tou use this PowerToy, a user will:
     - Alt + Z
     - Alt + Shift + X 
 
-**3.1.1 Public Name**
+### 3.2 Public Name
 
-Internally, the team has referred to this PowerToy as Terminate App. Some other name suggestions include:
+The initially proposed name for this app is Terminate App. However, there are multiple other alternative names that we are also considering:
+
  - Destroy App
- - Snap and Kill
- - Kill tap
- - End.
+ - Knockdown App
+ - Dismantle App
 
 ## 4. Dependencies
 - The 8 week time limit of the explore internship
