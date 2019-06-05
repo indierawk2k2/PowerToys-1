@@ -56,13 +56,9 @@ Users may or may not have any open windows on their screen. They can access this
 Upon opening the GIF Maker utility, users must click 'New' to begin.  They will have two options: 'Record' and 'Open'.
 
 - Record
-<<<<<<< HEAD
   - Choosing this option closes the GIF Maker window and displays a record button.
   - It records user's entire screen when they click the record button
   - User clicks the stop button to end the recording
-=======
-  - Choosing this option  then the screen recording tool appears.
->>>>>>> f30392f21945d84b4361672dec2f926db375677c
 - Open
   - If the user clicks 'Open', the mini File Explorer window opens for the user to select a video.
   - Once a video is selected, it appears in the GIF Maker, below the tool bar, for the user to edit.
