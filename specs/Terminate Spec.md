@@ -57,7 +57,7 @@ To use this PowerToy, a user will:
     - Note: users can configure in their options to disable the yes/no prompt and just terminate apps instantly.
 - Once they are done terminating their apps, user presses keyboard shortcut again to leave terminate mode.
 
-![Terminate](https://raw.github.com/indierawk2k2/PowerToys-1/images/PT%20Images/Terminate%20Blurred.png "Terminate")
+![Terminate](https://raw.github.com/indierawk2k2/PowerToys-1/master/PT%20Images/Terminate%20Blurred.png "Terminate")
 
 - Keyboard shortcut suggestions
     - Alt + Z

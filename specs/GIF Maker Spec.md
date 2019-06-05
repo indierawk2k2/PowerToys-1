@@ -29,9 +29,10 @@ Users currently must use the game bar in order to record the screen, and there i
 
 ### 2.1. Expected Impact: Customer, and Technology Outcomes, Experiments + Measures
 
-This feature will give users the ability to screen record and create GIFs effectively and add a new dimension to using GIFs on Windows.  As interns, we would have 8 weeks to complete the project.  Measures of success include:
+This feature will give users the ability to screen record and create GIFs effectively and add a new dimension to using GIFs on Windows. Measures of success include:
 
 - A score of an average of 3.75 stars on a new Consumer Design Satisfaction Survey
+- 5% increase in number of stars on the Github repo within first month of release
 - Installed by 10% of users who have starred the PowerToys Github
 - Uninstalled by less than 30% of users who installed
 - Launched by over 60% of users who installed
@@ -41,27 +42,43 @@ This feature will give users the ability to screen record and create GIFs effect
 
 #### 3.1.1. Initial UX/UI
 
-Users may or may not have any program running on their screen, but they must use a shortcut to open the GIF Maker utility, which opens in the center of the screen.  The window has toolbar at the top that displays a button called 'File' in the upper left corner.
+Users may or may not have any open windows on their screen. They can access this utility the same way you would access the Snip & Sketch tool on Windows or using an assigned keyboard shortcut. After the tool has been accessed by the user they can:
+
+- Start a new screen recording
+    - The tool will record the user's entire screen
+    - Video can only be saved as a GIF
+- Edit an already existing video into a GIF
+
+![GIF Maker UI](https://raw.github.com/indierawk2k2/PowerToys-1/master/PT%20Images/GIF%20Maker%20Spec.png "GIF Maker UI")
 
 #### 3.1.2. File Button Features
 
-Upon opening the GIF Maker utility, users must click 'File' to begin.  They will have two options: 'New' and 'Open'.
+Upon opening the GIF Maker utility, users must click 'New' to begin.  They will have two options: 'Record' and 'Open'.
 
-- New
-  - If the user clicks 'New' then the screen recording tool appears.
+- Record
+  - Choosing this option closes the GIF Maker window and displays a record button.
+  - It records user's entire screen when they click the record button
+  - User clicks the stop button to end the recording
 - Open
-  - If the user clicks 'Open' then the mini File Explorer window opens for the user to select a video.
+  - If the user clicks 'Open', the mini File Explorer window opens for the user to select a video.
   - Once a video is selected, it appears in the GIF Maker, below the tool bar, for the user to edit.
-- Save and Save As
-  - After the user has selected 'New' or 'Open', the 'Save' and 'Save As' options will also be available the next time the user clicks 'File'.
+- Saving
+  - All files will be saved as GIFs (.gif extension)
+  - Users can make GIFs with a minimum time of 0.05 seconds and a maximum time of 6.00 seconds
 
-#### 3.1.3. Screen Recording Tools
+#### 3.1.3. GIF Editing Tools
 
-- 
+- Add Text
+    - Users can add text to their videos
+    - Default Windows fonts will be available
+- Crop Video
+    - Users can crop their videos manually or use the default cropping options. The default options will include:
+        - 1:1
+        - 4:3
+        - 3:2
+        - 16:9
+    - Users can also leave their video in their original dimensions
 
-#### 3.1.4. GIF Editing Tools
-
-- 
 
 ## 4. Dependencies
 - Explore Internship Program limits us to an 8-week window to complete the task.
