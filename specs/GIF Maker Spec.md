@@ -68,7 +68,7 @@ Upon opening the GIF Maker utility, users must click 'New' to begin.  They will 
   - Once a video is selected, it appears in the GIF Maker, below the tool bar, for the user to edit.
 - Saving
   - All files will be saved as GIFs (.gif extension)
-  - Users can make GIFs with a minimum time of 0.05 seconds and a maximum time of 6.00 seconds
+
 
 #### 3.1.3. GIF Editing Tools
 
@@ -82,6 +82,9 @@ Upon opening the GIF Maker utility, users must click 'New' to begin.  They will 
         - 3:2
         - 16:9
     - Users can also leave their video in their original dimensions
+- Trim Video
+  - Users can trim the length of their videos
+  - Users can make GIFs with a minimum time of 0.05 seconds and a maximum time of 6.00 seconds
 
 #### 3.1.4. Settings
 
