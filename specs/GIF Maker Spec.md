@@ -49,6 +49,10 @@ Users may or may not have any open windows on their screen. They can access this
     - Video can only be saved as a GIF
 - Edit an already existing video into a GIF
 
+- Keyboard Shortcut Suggestions:
+    - Ctrl + Alt + R
+    - Ctrl + Alt + G
+
 ![GIF Maker UI](https://raw.github.com/indierawk2k2/PowerToys-1/master/PT%20Images/GIF%20Maker%20Spec.png "GIF Maker UI")
 
 #### 3.1.2. File Button Features
