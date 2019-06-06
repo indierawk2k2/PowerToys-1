@@ -74,8 +74,7 @@ Our PowerToys Consumer Survey received participation and feedback from over 250 
      - Used as the name for the new folders created.  
      - Used to rename files by completely overwriting the files' current names with the custom 'Label' typed by the user and each file receives a counting number.
    - File Numbering
-     - There will be an option to change the format of how the numbers are appended to files' names in the PowerToys Settings.
-     - Similar to the functionality of a switch or radio button, the user will be able to select options for the numbering format such as "Label(1)" or  "Label_1" or "Label1"
+     - There will be an option to change the format of how the numbers are appended to files' names such as "Label(1)" or  "Label_1" or "Label1" in the PowerToys Settings. (*See 3 for more on PowerToys Settings*)
    - Confirmation  
      - After the user selects an option and fills in the required text boxes, they must click 'Apply' for the utility to make the changes, or they can click 'Cancel' which closes the utility without making changes.
    - Guidelines on User Input
@@ -84,6 +83,18 @@ Our PowerToys Consumer Survey received participation and feedback from over 250 
 - Shortcut Accessibility
   - Perhaps Ctrl + Tab, which does not have a function within File Explorer.
   - Alternatives include : Alt + C , Ctrl + Alt + F
+
+#### 3. Settings
+
+The PowerToys app will have a settings framework for the File Classification utility to plug into. The settings framework has a UI frame that creates a page for the utility. Its settings will be represented as a json blob with the following features:
+
+3.1. Enable/Disable
+- The user can select to enable or disable the File Classifiation utility's functionality, which initializes or suspends its resource use.
+
+3.2. Custom Configuration
+- Similar to the functionality of a switch or radio button, the user will be able to select options for the numbering format such as "Label(1)" or  "Label_1" or "Label1"
+
+Figure 1
 
 <img src="https://raw.github.com/indierawk2k2/PowerToys-1/images/PT%20Images/File%20Classification%20Design%20Blurred.png" alt="Figure 1-1" width="500"/>
 

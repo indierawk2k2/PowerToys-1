@@ -63,6 +63,16 @@ To use this PowerToy, a user will:
     - Alt + Z
     - Alt + Shift + X 
 
+3.1.1 Settings
+
+The PowerToys app will have a settings framework for the Terminate utility to plug into. The settings framework has a UI frame that creates a page for the utility. Its settings will be represented as a json blob with the following features:
+
+- Enable/Disable
+  - The user can select to enable or disable the Terminate utility's functionality, which initializes or suspends its resource use.
+
+- Custom Configuration
+  - Similar to the functionality of a switch or radio button, the user will be able to select options for the appearance of the mouse cursor.
+
 ### 3.2 Public Name
 
 The initially proposed name for this app is Terminate App. However, there are multiple other alternative names that we are also considering:

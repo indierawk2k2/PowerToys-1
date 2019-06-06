@@ -61,7 +61,7 @@ Upon opening the GIF Maker utility, users must click 'New' to begin.  They will 
 
 - Record
   - Choosing this option closes the GIF Maker window and displays a record button.
-  - It records user's entire screen when they click the record button
+  - When they click the record button, it starts a brief countdown. Once the countdown concludes, it records the user's entire screen. 
   - User clicks the stop button to end the recording
 - Open
   - If the user clicks 'Open', the mini File Explorer window opens for the user to select a video.
@@ -83,6 +83,15 @@ Upon opening the GIF Maker utility, users must click 'New' to begin.  They will 
         - 16:9
     - Users can also leave their video in their original dimensions
 
+#### 3.1.4. Settings
+
+The PowerToys app will have a settings framework for the GIF Maker utility to plug into. The settings framework has a UI frame that creates a page for the utility. Its settings will be represented as a json blob with the following features:
+
+3.1. Enable/Disable
+- The user can select to enable or disable the GIF Maker utility's functionality, which initializes or suspends its resource use.
+
+3.2. Custom Configuration
+- Similar to the functionality of a switch or radio button, the user will be able to select options for the countdown: 0, 5, or 10 secs.
 
 ## 4. Dependencies
 - Explore Internship Program limits us to an 8-week window to complete the task.
