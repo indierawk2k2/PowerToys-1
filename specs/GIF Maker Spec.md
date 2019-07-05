@@ -46,7 +46,8 @@ Users may or may not have any open windows on their screen. They can access this
 
 - Start a new screen recording
     - The tool will record the user's entire screen
-    - Video can only be saved as a GIF
+
+    - Video can be saved in multiple formats (.GIF, .MP4, .HEIC, .M4A, etc...)
 - Edit an already existing video into a GIF
 
 - Keyboard Shortcut Suggestions:
@@ -67,8 +68,9 @@ Upon opening the GIF Maker utility, users must click 'New' to begin.  They will 
   - If the user clicks 'Open', the mini File Explorer window opens for the user to select a video.
   - Once a video is selected, it appears in the GIF Maker, below the tool bar, for the user to edit.
 - Saving
-  - All files will be saved as GIFs (.gif extension)
 
+  - Recorded videos can be saved in multiple video formats
+  - Users can further edit their videos and save them as GIFs
 
 #### 3.1.3. GIF Editing Tools
 
