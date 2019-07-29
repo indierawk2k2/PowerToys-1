@@ -52,15 +52,15 @@ The PowerToys repo currently has 200+ people watching, over 4000 stars and 109 f
 
 To use this PowerToy, a user will:
 
-- Click the chosen keyboard shortcut and cursor morphs to indicate that user is in 'Terminate' mode.
-- In Terminate mode, whenever a user clicks on a window, it displays a yes/no prompt for the user to confirm that they want to close said window.
+- Press the chosen keyboard shortcut. This will display the 'Terminate' window.
+- Click the left mouse button anywhere in the Terminate Window and drag the cursor to whatever other window they wish to kill.
     - Note: users can configure in their options to disable the yes/no prompt and just terminate apps instantly.
-- Once they are done terminating their apps, user presses keyboard shortcut again to leave terminate mode.
+- Release the left mouse button over the new app to kill it.
+- Once they are done with the utility, user closes the terminate window to exit.
 
 ![Terminate](https://raw.github.com/indierawk2k2/PowerToys-1/master/PT%20Images/Terminate%20Blurred.png "Terminate")
 
-- Keyboard shortcut suggestions
-    - Alt + Z
+- Keyboard shortcut
     - Alt + Shift + X 
 
 3.1.1 Settings
