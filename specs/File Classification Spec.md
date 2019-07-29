@@ -46,7 +46,7 @@ Our PowerToys Consumer Survey received participation and feedback from over 250 
 
 #### 1. Initial UX/UI
    
-   Users must open File Explorer and select a group of files by checking each file or using Shift + directional keys.  They must then use a shortcut to open the File Classification utility, which opens in the center of the screen and provides options that require input from the user.
+   The user must use a shortcut to open the File Classification utility, which opens in the center of the screen and provides options that require input from the user (**See Section 2 for information on user options and input**). After the user clicks 'Apply', a File Explorer window will appear and allow the user to select a group of files by checking each file or using Shift + directional keys. The user can hit the 'Enter' key or click 'Open' to apply changes to the selected files.
 
    **For a visual example of the UX see Figure 1*
 
@@ -76,13 +76,11 @@ Our PowerToys Consumer Survey received participation and feedback from over 250 
    - File Numbering
      - There will be an option to change the format of how the numbers are appended to files' names such as "Label(1)" or  "Label_1" or "Label1" in the PowerToys Settings. (*See 3 for more on PowerToys Settings*)
    - Confirmation  
-     - After the user selects an option and fills in the required text boxes, they must click 'Apply' for the utility to make the changes, or they can click 'Cancel' which closes the utility without making changes.
+     - After the user selects an option and fills in the required text box(es), they must click 'Apply' for the utility to open file explorer and make the changes, or they can click 'Cancel' which closes the utility without making changes.
    - Guidelines on User Input
-     - Only a single option can be applied at a time, so if the user begins to type text for one option, the other options should block input (*text area turns grey and the user cannot type in it*) unless input is removed from the original option.
-     - If a space alone is inputted into any of the options, no changes are made when apply is clicked.
+     - Only a single option can be applied at a time, so if the user begins to type text for one option, the other options should block input (*text area turns grey and the user cannot type in it*) unless another option is selected.
 - Shortcut Accessibility
-  - Perhaps Ctrl + Tab, which does not have a function within File Explorer.
-  - Alternatives include : Alt + C , Ctrl + Alt + F
+  - Users simultaneously press Ctrl + Alt + F
 
 #### 3. Settings
 
