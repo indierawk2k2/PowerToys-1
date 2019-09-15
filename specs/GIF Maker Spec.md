@@ -77,6 +77,8 @@ Upon opening the GIF Maker utility, users must click 'New' to begin.  They will 
 - Add Text
     - Users can add text to their videos
     - Default Windows fonts will be available
+    - User can adjust font size, bold, italic, underline
+    - Text can be contained in callouts with adjustable size (to fit text), the arrows can be moved to any side of the callout box, and the arrow "streched" in length to keep the text out of the way of pertinent areas while clearly indicating the area of action (button, checkbox, menu item, etc)
 - Crop Video
     - Users can crop their videos manually or use the default cropping options. The default options will include:
         - 1:1
@@ -87,6 +89,10 @@ Upon opening the GIF Maker utility, users must click 'New' to begin.  They will 
 - Trim Video
   - Users can trim the length of their videos
   - Users can make GIFs with a minimum time of 0.05 seconds and a maximum time of 6.00 seconds
+  - Users can trim or speed-up sections of video - recipient doesn't need to see (in real time) the mouse-cursor hunt for the next click  (If this cannot be done, the 6.00 second max limit may need to be reconsidered.)
+- Resize or set maximum resolution of resulting video/GIF
+  - Some information can be inferred from position and/or movement, without needed to clearly read text on screen (or burn marks of the burrito's tortilla)
+  - Resolutions smaller than original screen also reduce size of GIF to be sent to recipient
 
 #### 3.1.4. Settings
 
