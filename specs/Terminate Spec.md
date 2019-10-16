@@ -81,6 +81,11 @@ The initially proposed name for this app is Terminate App. However, there are mu
  - Knockdown Program
  - Dismantle App
 
+Obviously, it should be called either
+ - PowerKill
+ or
+ - PowerTerminate
+
 ## 4. Dependencies
 - The 8 week time limit of the explore internship
 
