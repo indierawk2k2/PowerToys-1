@@ -44,7 +44,7 @@ The PowerToys repo currently has 200+ people watching, over 4000 stars and 109 f
 - At least a 5% increase in Github stars within a month of release
 - A 3.75/5 rating on a post-completion Consumer Satisfaction Survey on this PowerToy.
 - 100 downloads & installs within the first month of release.
-- Less than 40% of unistalls by users who install this PowerToy
+- Less than 40% of uninstalls by users who install this PowerToy
 
 ## 3. Requirements
 
